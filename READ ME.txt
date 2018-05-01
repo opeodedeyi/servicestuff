@@ -1,0 +1,30 @@
+JUST SOME THINGS TO NOTE ABOUT THE CODE
+
+1. all the code for the project is inside the html.
+
+2. always check the media querry at the bottom of the page for code for each element you copy.
+
+3. for the posotioning of the footer of the page at the bottom of the screen, copy the two opening div tags 
+that starts just on top of the header tags and closes just under the section tag. its Css will be found in 
+the general styling of the page from line 12-32.
+
+4. all the overlays except the loading overlay will be found in the index.html file from line 43-595. the loading 
+overlay will be found in the uploadproject.html from line 23-34.
+
+5. for upload project and upload skill profile, note that the title is to have a maximum character of 50 characters.
+and the description to have 500-600 characters. i dont know how, but the tags might give you issues and you might 
+need to change it. its css is commented "POST PROJECT FORM STYLING" 
+and also copy "input styling for post project, skill and profile page"
+
+6. to edit someones profile page (full name, email address, e.t.c.), go to myProfile.html
+
+7. for search result, go to searchResult.html. i set the default overlay to bloc so it will always show. remember all 
+the overlays can be found at the beginning of the css.
+
+8. post page shows when a user clicks on post button, it takes them to the page where they select between post a skilled 
+profile or to post a project.
+
+9. uploadProject.html and uploadSkill.html are the two html files for uploading a project and skilled profile respectively. 
+remember that the dropzone will be required for only the uploadProject.html as we can handle that for now.
+
+10. all the modals have javascript code in the app.js, nav bar, tags and upload profile photo have jquery code in the app.js also.
